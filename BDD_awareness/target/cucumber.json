@@ -1,0 +1,102 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Account is in credit",
+        "description": "",
+        "id": "withdraw-cash-from-atm;account-is-in-credit",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 375492308,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the account is in credit",
+            "match": {
+              "location": "withdraw_ATM.the_account_is_in_credit()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7178042,
+              "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat stepDefinition.withdraw_ATM.the_card_is_valid(withdraw_ATM.java:21)\n\tat ✽.And the card is valid(withdraw_ATM.feature:5)\n",
+              "status": "pending"
+            },
+            "line": 5,
+            "name": "the card is valid",
+            "match": {
+              "location": "withdraw_ATM.the_card_is_valid()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "the dispenser contains cash",
+            "match": {
+              "location": "withdraw_ATM.the_dispenser_contains_cash()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "the customer requests cash",
+            "match": {
+              "location": "withdraw_ATM.the_customer_requests_cash()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "ensure the account is debited",
+            "match": {
+              "location": "withdraw_ATM.ensure_the_account_is_debited()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "ensure cash is dispensed",
+            "match": {
+              "location": "withdraw_ATM.ensure_cash_is_dispensed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "ensure the card is returned",
+            "match": {
+              "location": "withdraw_ATM.ensure_the_card_is_returned()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Withdraw cash from ATM",
+    "description": "",
+    "id": "withdraw-cash-from-atm",
+    "keyword": "Feature",
+    "uri": "withdraw_ATM.feature"
+  }
+]
